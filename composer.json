@@ -1,0 +1,27 @@
+{
+  "name": "wjcryto/composer",
+  "description": "Projeto Academia",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Vinicyus Marques",
+      "email": "vinicyusmarquess@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^2.1",
+    "php-di/php-di": "^6.2",
+    "firebase/php-jwt": "^5.2",
+    "pecee/simple-router": "4.2.0.6",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "wjcryto\\" : "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
